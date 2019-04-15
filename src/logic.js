@@ -12,5 +12,7 @@
         console.log('hello');
     }
     hello3();
+    hello1();
+    hello2();
 
 })();
