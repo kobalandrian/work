@@ -18,10 +18,9 @@
     // Cnahges 04.11_edition1
     let p_element = document.createElement('p');
     p_element.textContent = 'changes04.11_1';
-    document.querySelector('.main').append(p_element);
 
     // Cnahges 04.11_edition2
     let div_element = document.createElement('div');
-    p_element.textContent = 'changes04.11_2';
-    document.querySelector('.main').append(div_element);
+    div_element.textContent = 'changes04.11_2';
+    document.querySelector('.main').append(p_element, div_element);
 })();
